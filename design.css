@@ -1,0 +1,41 @@
+.mainletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    height: 40%;
+    width: 75%;
+
+    /* Design for the letter */
+    background-color: rgb(249, 185, 185);
+    padding: 3vh; /* add space padding*/
+    border-radius: 20px;
+    border: 6px solid rgb(4, 25, 7);
+}
+
+
+.textFormat { 
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-image: url(/rosesbg.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.inputField {
+    text-align: center; 
+    letter-spacing: 4px; 
+    color: red;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+
+    font-size: large;
+    padding: 5px;
+}
